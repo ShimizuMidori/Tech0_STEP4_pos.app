@@ -1,0 +1,17 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# バックエンド用の.gitignore
+
+# .gitignoreファイルの内容
+.env
+
+# Python関連の無視ファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js関連の無視ファイル
+node_modules/
+dist/
+.next/
+
+frontend/
